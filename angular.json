@@ -27,9 +27,51 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/vendors/vendors.min.css",
+              "src/assets/vendors/animate-css/animate.css",
+              "src/assets/vendors/chartist-js/chartist.min.css",
+              "src/assets/vendors/chartist-js/chartist-plugin-tooltip.css",
+              "src/assets/vendors/flag-icon/css/flag-icon.min.css",
+              "src/assets/vendors/data-tables/css/jquery.dataTables.min.css",
+              "src/assets/vendors/data-tables/extensions/responsive/css/responsive.dataTables.min.css",
+              "src/assets/vendors/data-tables/css/select.dataTables.min.css",
+              "src/assets/css/themes/menu/materialize.min.css",
+              "src/assets/css/themes/menu/style.min.css",
+              "src/assets/css/pages/data-tables.min.css",
+              "src/assets/css/pages/dashboard-modern.css",
+              "src/assets/css/pages/intro.min.css",
+              "src/assets/vendors/quill/katex.min.css",
+              "src/assets/vendors/quill/monokai-sublime.min.css",
+              "src/assets/vendors/quill/quill.snow.css",
+              "src/assets/vendors/quill/quill.bubble.css",
+              "src/assets/css/custom/custom.css",
+              "src/assets/css/pages/login.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vendors.min.js",
+              "src/assets/vendors/data-tables/js/jquery.dataTables.min.js",
+              "src/assets/vendors/data-tables/extensions/responsive/js/dataTables.responsive.min.js",
+              "src/assets/vendors/data-tables/js/dataTables.select.min.js",
+              "src/assets/vendors/chartjs/chart.min.js",
+              "src/assets/vendors/chartist-js/chartist.min.js",
+              "src/assets/vendors/chartist-js/chartist-plugin-tooltip.js",
+              "src/assets/vendors/chartist-js/chartist-plugin-fill-donut.min.js",
+              "src/assets/js/plugins.min.js",
+              "src/assets/js/search.min.js",
+              "src/assets/js/custom/custom-script.min.js",
+              "src/assets/js/scripts/customizer.min.js",
+              "src/assets/js/scripts/dashboard-modern.js",
+              "src/assets/js/scripts/intro.min.js",
+              "src/assets/js/scripts/data-tables.min.js",
+              
+              "src/assets/vendors/quill/katex.min.js",
+              "src/assets/vendors/quill/highlight.min.js",
+              "src/assets/vendors/quill/quill.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/js/scripts/form-editor.min.js"
+            ]
           },
           "configurations": {
             "production": {

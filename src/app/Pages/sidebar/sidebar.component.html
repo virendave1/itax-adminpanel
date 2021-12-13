@@ -1,0 +1,322 @@
+<html>
+<head></head>
+<body  >
+<header class="page-topbar" id="header" >
+  <div class="navbar navbar-fixed"> 
+    <nav class="navbar-main navbar-color nav-collapsible sideNav-lock navbar-dark no-shadow amber darken-3">
+      <div class="nav-wrapper">
+        <div class="header-search-wrapper hide-on-med-and-down"><i class="material-icons">search</i>
+          <input class="header-search-input z-depth-2" type="text" name="Search" placeholder="Explore ..." data-search="template-list">
+          <ul class="search-list collection display-none"></ul>
+        </div>
+        <ul class="navbar-list right">
+           <li class="hide-on-med-and-down"><a class="waves-effect waves-block waves-light toggle-fullscreen" href="javascript:void(0);"><i class="material-icons">settings_overscan</i></a></li>
+          <li class="hide-on-large-only search-input-wrapper"><a class="waves-effect waves-block waves-light search-button" href="javascript:void(0);"><i class="material-icons">search</i></a></li>
+          <li><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="notifications-dropdown"><i class="material-icons">notifications_none<small class="notification-badge">5</small></i></a></li>
+          <li><a class="waves-effect waves-block waves-light profile-button" href="javascript:void(0);" data-target="profile-dropdown"><span class="avatar-status avatar-online"><img src="assets/images/avatar/avatar-7.png" alt="avatar"><i></i></span></a></li>
+        </ul>
+        <ul class="dropdown-content" id="notifications-dropdown">
+          <li>
+            <h6>NOTIFICATIONS<span class="new badge">5</span></h6>
+          </li>
+          <li class="divider"></li>
+          <li><a class="black-text" href="#!"><span class="material-icons icon-bg-circle cyan small">add_shopping_cart</span> A new order has been placed!</a>
+            <time class="media-meta grey-text darken-2" datetime="2015-06-12T20:50:48+08:00">2 hours ago</time>
+          </li>
+          <li><a class="black-text" href="#!"><span class="material-icons icon-bg-circle red small">stars</span> Completed the task</a>
+            <time class="media-meta grey-text darken-2" datetime="2015-06-12T20:50:48+08:00">3 days ago</time>
+          </li>
+          <li><a class="black-text" href="#!"><span class="material-icons icon-bg-circle teal small">settings</span> Settings updated</a>
+            <time class="media-meta grey-text darken-2" datetime="2015-06-12T20:50:48+08:00">4 days ago</time>
+          </li>
+          <li><a class="black-text" href="#!"><span class="material-icons icon-bg-circle deep-orange small">today</span> Director meeting started</a>
+            <time class="media-meta grey-text darken-2" datetime="2015-06-12T20:50:48+08:00">6 days ago</time>
+          </li>
+          <li><a class="black-text" href="#!"><span class="material-icons icon-bg-circle amber small">trending_up</span> Generate monthly report</a>
+            <time class="media-meta grey-text darken-2" datetime="2015-06-12T20:50:48+08:00">1 week ago</time>
+          </li>
+        </ul>
+
+        <ul class="dropdown-content" id="profile-dropdown">
+          <li><a class="grey-text text-darken-1" href="javascritp:void(0)"><i class="material-icons"></i> Profile</a></li>
+          <li><a class="grey-text text-darken-1" href="index.html"><i class="material-icons"></i> Logout</a></li>
+        </ul>
+      </div>
+      <nav class="display-none search-sm">
+        <div class="nav-wrapper">
+          <form id="navbarForm">
+            <div class="input-field search-input-sm">
+              <input class="search-box-sm mb-0" type="search" required="" id="search" placeholder="Explore..." data-search="template-list">
+              <label class="label-icon" for="search"><i class="material-icons search-sm-icon">search</i></label><i class="material-icons search-sm-close">close</i>
+              <ul class="search-list collection search-list-sm display-none"></ul>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </nav>
+  </div>
+</header>
+<ul class="display-none" id="default-search-main">
+  <li class="auto-suggestion-title"><a class="collection-item" href="#">
+      <h6 class="search-title">FILES</h6></a></li>
+  <li class="auto-suggestion"><a class="collection-item" href="#">
+      <div class="display-flex">
+        <div class="display-flex align-item-center flex-grow-1">
+          <div class="avatar"><img src="assets/images/icon/pdf-image.png" width="24" height="30" alt="sample image"></div>
+          <div class="member-info display-flex flex-column"><span class="black-text">Two new item submitted</span><small class="grey-text">Marketing Manager</small></div>
+        </div>
+        <div class="status"><small class="grey-text">17kb</small></div>
+      </div></a></li>
+  <li class="auto-suggestion"><a class="collection-item" href="#">
+      <div class="display-flex">
+        <div class="display-flex align-item-center flex-grow-1">
+          <div class="avatar"><img src="assets/images/icon/doc-image.png" width="24" height="30" alt="sample image"></div>
+          <div class="member-info display-flex flex-column"><span class="black-text">52 Doc file Generator</span><small class="grey-text">FontEnd Developer</small></div>
+        </div>
+        <div class="status"><small class="grey-text">550kb</small></div>
+      </div></a></li>
+  <li class="auto-suggestion"><a class="collection-item" href="#">
+      <div class="display-flex">
+        <div class="display-flex align-item-center flex-grow-1">
+          <div class="avatar"><img src="assets/images/icon/xls-image.png" width="24" height="30" alt="sample image"></div>
+          <div class="member-info display-flex flex-column"><span class="black-text">25 Xls File Uploaded</span><small class="grey-text">Digital Marketing Manager</small></div>
+        </div>
+        <div class="status"><small class="grey-text">20kb</small></div>
+      </div></a></li>
+  <li class="auto-suggestion"><a class="collection-item" href="#">
+      <div class="display-flex">
+        <div class="display-flex align-item-center flex-grow-1">
+          <div class="avatar"><img src="assets/images/icon/jpg-image.png" width="24" height="30" alt="sample image"></div>
+          <div class="member-info display-flex flex-column"><span class="black-text">Anna Strong</span><small class="grey-text">Web Designer</small></div>
+        </div>
+        <div class="status"><small class="grey-text">37kb</small></div>
+      </div></a></li>
+  <li class="auto-suggestion-title"><a class="collection-item" href="#">
+      <h6 class="search-title">MEMBERS</h6></a></li>
+  <li class="auto-suggestion"><a class="collection-item" href="#">
+      <div class="display-flex">
+        <div class="display-flex align-item-center flex-grow-1">
+          <div class="avatar"><img class="circle" src="assets/images/avatar/avatar-7.png" width="30" alt="sample image"></div>
+          <div class="member-info display-flex flex-column"><span class="black-text">John Doe</span><small class="grey-text">UI designer</small></div>
+        </div>
+      </div></a></li>
+  <li class="auto-suggestion"><a class="collection-item" href="#">
+      <div class="display-flex">
+        <div class="display-flex align-item-center flex-grow-1">
+          <div class="avatar"><img class="circle" src="assets/images/avatar/avatar-8.png" width="30" alt="sample image"></div>
+          <div class="member-info display-flex flex-column"><span class="black-text">Michal Clark</span><small class="grey-text">FontEnd Developer</small></div>
+        </div>
+      </div></a></li>
+  <li class="auto-suggestion"><a class="collection-item" href="#">
+      <div class="display-flex">
+        <div class="display-flex align-item-center flex-grow-1">
+          <div class="avatar"><img class="circle" src="assets/images/avatar/avatar-10.png" width="30" alt="sample image"></div>
+          <div class="member-info display-flex flex-column"><span class="black-text">Milena Gibson</span><small class="grey-text">Digital Marketing</small></div>
+        </div>
+      </div></a></li>
+  <li class="auto-suggestion"><a class="collection-item" href="#">
+      <div class="display-flex">
+        <div class="display-flex align-item-center flex-grow-1">
+          <div class="avatar"><img class="circle" src="assets/images/avatar/avatar-12.png" width="30" alt="sample image"></div>
+          <div class="member-info display-flex flex-column"><span class="black-text">Anna Strong</span><small class="grey-text">Web Designer</small></div>
+        </div>
+      </div></a></li>
+</ul>
+<ul class="display-none" id="page-search-title">
+  <li class="auto-suggestion-title"><a class="collection-item" href="#">
+      <h6 class="search-title">PAGES</h6></a></li>
+</ul>
+<ul class="display-none" id="search-not-found">
+  <li class="auto-suggestion"><a class="collection-item display-flex align-items-center" href="#"><span class="material-icons">error_outline</span><span class="member-info">No results found.</span></a></li>
+</ul>
+<aside id="sidenav" class="sidenav-main nav-expanded nav-lock nav-collapsible sidenav-active-square sidenav-dark">
+  <div class="brand-sidebar">
+    <h1 class="logo-wrapper"><a class="brand-logo darken-1" href="dashboard.html">
+     <span class="logo-text hide-on-med-and-down">iTaxDirect</span>
+  </a><a class="navbar-toggler" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
+  </div>
+  <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
+    <li class="bold"> <a class="brand-logo darken-1" href="dashboard.html"><i class="material-icons">settings_input_svideo</i><span class="menu-title" data-i18n="Mail">Dashboard</span></a>
+    </li>
+
+    <li class="navigation-header"><a class="navigation-header-text">Applications<span class="badge badge pill purple float-right mr-7 mt-2">5</span></a><i class="navigation-header-icon material-icons">more_horiz</i>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">receipt</i><span class="menu-title" data-i18n="Invoice">CMS</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="../login"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Invoice List">About Us</span></a>
+          </li>
+          <li><a routerLink="banners.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Invoice View">Banners</span></a>
+          </li>
+          <li><a routerLink="career.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Invoice Edit">Career</span></a>
+          </li>
+          <li><a routerLink="client_testimonial.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Invoice Add">Client Testimonials</span></a>
+          </li>
+          <li><a routerLink="partner_with_us.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Invoice List">Partner With Us</span></a>
+          </li>
+          <li><a routerLink="privacy_policy.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Invoice View">Privacy Policy</span></a>
+          </li>
+          <li><a routerLink="terms_conditions.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Invoice Edit">Terms and Conditions</span></a>
+          </li>
+          <li><a routerLink="placeholder.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Invoice Add">Placeholder</span></a>
+          </li>
+          <li><a routerLink="contact_management.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Invoice Add">Contact Mgmt</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">format_list_bulleted</i><span class="menu-title" data-i18n="eCommerce">Web Crawl POC</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="validate_DIN.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">Validate DIN & SRN</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">filter_tilt_shift</i><span class="menu-title" data-i18n="eCommerce">Service Transactions</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="new_service_requests.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">New Service Requests</span></a>
+          </li>
+          <li><a routerLink="manage_services.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">Manage Services</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">check</i><span class="menu-title" data-i18n="eCommerce">Case Law</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="./caselaw"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">Case Law</span></a>
+          </li>
+          <li><a routerLink="review.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">Review</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">person_outline</i><span class="menu-title" data-i18n="eCommerce">Account</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="invoice_approval.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">Invoice Approval</span></a>
+          </li>
+          <li><a routerLink="approved_invoice.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">Approved Invoice</span></a>
+          </li>
+          <li><a routerLink="rejected_invoice.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">Rejected Invoice</span></a>
+          </li>
+          <li><a routerLink="invoice_payment.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">Invoice Payment</span></a>
+          </li>
+          <li><a routerLink="tds_payment.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Products Page">TDS Payment</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="navigation-header"><a class="navigation-header-text">Management <span class="badge badge pill pink float-right mr-7 mt-2">3</span></a><i class="navigation-header-icon material-icons">more_horiz</i>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">content_paste</i><span class="menu-title" data-i18n="Pages">Business Partner Mgmt</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="registerations.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Contact">Registerations</span></a>
+          </li>
+          <li><a routerLink="approved_partners.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Blog">Approved Partners</span></a>
+          </li>
+          <li><a routerLink="business_partner_fee.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Search">Business Partner Fee</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">face</i><span class="menu-title" data-i18n="Medias">Customer Mgmt</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="customer_profile.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Gallery Page">Customer Profile</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">add_to_queue</i><span class="menu-title" data-i18n="User">Service Mgmt</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="service_categories.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="List">Service Categories</span></a>
+          </li>
+          <li><a routerLink="service_master.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="View">Service Master</span></a>
+          </li>
+          <li><a routerLink="milestone_master.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Edit">Milestone Master</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="navigation-header"><a class="navigation-header-text"> Others <span class="badge badge pill purple float-right mr-7 mt-2">6</span></a><i class="navigation-header-icon material-icons">more_horiz</i>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">chrome_reader_mode</i><span class="menu-title" data-i18n="CSS">Download</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="download_forms.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Typograpy">Download Forms</span></a>
+          </li>
+          <li><a routerLink="faq.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Color">FAQ</span></a>
+          </li>
+          <li><a routerLink="featured_videos.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Grid">Featured Videos</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">settings</i><span class="menu-title" data-i18n="CSS">Settings</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="roles.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Typograpy">Roles</span></a>
+          </li>
+          <li><a routerLink="users.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Color">Users</span></a>
+          </li>
+          <li><a routerLink="options.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Grid">Options</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">image_aspect_ratio</i><span class="menu-title" data-i18n="CSS">Blog & Newsletter</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="blogs.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Typograpy">Blogs</span></a>
+          </li>
+          <li><a routerLink="approved_blogs.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Color">Approved Blogs</span></a>
+          </li>
+          <li><a routerLink="newsletter.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Grid">Newsletter</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">today</i><span class="menu-title" data-i18n="CSS">Calendar & Events</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="calendar.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Typograpy">Calendar</span></a>
+          </li>
+          <li><a routerLink="events.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Color">Events</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">photo_filter</i><span class="menu-title" data-i18n="CSS">Referral & Discount</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="discount_coupons.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Typograpy">Discount Coupons</span></a>
+          </li>
+          <li><a routerLink="customer_referral.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Color">Customer Referral</span></a>
+          </li>
+          <li><a routerLink="service_provider_referral.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Grid">Service Provider Referral</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li class="bold"><a class="collapsible-header waves-effect waves-cyan " href="JavaScript:void(0)"><i class="material-icons">help_outline</i><span class="menu-title" data-i18n="Cards">Online Enquiry</span></a>
+      <div class="collapsible-body">
+        <ul class="collapsible collapsible-sub" data-collapsible="accordion">
+          <li><a routerLink="contact_us.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Cards">Contact Us</span></a>
+          </li>
+          <li><a routerLink="career_opportunity.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Cards Advance">Career Opportunity</span></a>
+          </li>
+          <li><a routerLink="subscriptions.html"><i class="material-icons">radio_button_unchecked</i><span data-i18n="Cards Extended">Subscriptions</span></a>
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+  <div class="navigation-background"></div><a class="sidenav-trigger btn-sidenav-toggle btn-floating btn-medium waves-effect waves-light hide-on-large-only" href="#" data-target="slide-out"><i class="material-icons">menu</i></a>
+</aside>
+</body>
+</html>

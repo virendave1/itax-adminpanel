@@ -1,0 +1,206 @@
+div#contactus_btn {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+div#edit_btn {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+div#contactus_delete_btn {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+div#page-length-option_length {
+    display: none;
+}
+.card .card-content .card-title {
+    font-weight: bolder;
+}
+label {
+    color: black;
+    font-weight: bold;
+}
+input[type=search]:not(.browser-default) {
+    border-bottom: 1px solid black;
+}
+div#view_btn {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    background-color: purple;
+}
+div#preview_btn {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    background-color: limegreen;
+}
+#contactus_btn {
+    background-color: forestgreen;
+}
+div#service_master_contactus_delete_btn {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    margin-top: 0.5vw;
+    background-color: red;
+}
+a#service_master_preview_btn {
+    position: absolute;
+    bottom: 0.7vw;
+    background-color: coral;
+}
+#edit_btn{
+    background-color: dodgerblue;
+}
+#contactus_delete_btn{
+    background-color: red;
+}
+a#contactus_new_btn {
+    color: white;
+}
+a#contactus_new_btn {
+    color: white;
+}
+table.dataTable thead th {
+    padding: 10px 7px;
+}
+.headcol {
+    width: 8em;
+    left: 0;
+    top: auto;
+    border-top-width: 1px;
+    margin-top: -1px;
+}
+div#modal2 {
+    width: 50%;
+    text-align: center;
+}
+div#modal3 {
+    width: 50%;
+    text-align: left;
+}
+div#reject_btn {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: red;
+    float: left;
+    margin-top: 1vw;
+    margin-right: 2vw;
+}
+div#approved_btn{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: greenyellow;
+    float: left;
+    margin-top: 1vw;
+    margin-right: 2vw;  
+    margin-left: 1vw;
+}
+div#modal4 {
+    width: 90%;
+    text-align: left;
+    height: -webkit-fill-available;
+}
+div#back_btn {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: royalblue;
+    float: right;
+    margin-top: 1vw;
+}
+.modal.modal-fixed-footer {
+    height: 50%;
+}
+a.modal-action.modal-close.waves-effect.waves-green.btn-flat {
+    background-color: limegreen;
+    color: #FFFFFF;
+}
+a.modal-action.modal-close.waves-effect.waves-red.btn-flat {
+    background-color: indianred;
+    color: #FFFFFF;
+}
+#question_mark_img {
+    width: 7vw;
+}
+a#add_btn {
+    background-color: cornflowerblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: -0.4vw;
+}
+.input-field.col label {
+    left: 0.75rem;
+    color: black;
+    font-size: 1.1vw;
+}
+#select_text{
+    font-size: 0.9vw;
+    color: black;
+}
+input.select-dropdown.dropdown-trigger {
+    color: #D6D6D6;
+}
+.tabs .tab a.active, .tabs .tab a:hover {
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+#coupon_code_btn {
+    position: absolute;
+    margin-top: 0.7vw;
+    background-color:#70c9d3;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+#review_search_btn{
+float: left;
+position: absolute;
+text-align: center;
+margin-left: 1vw;
+}
+#review_search_back_btn {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: royalblue;
+    float: right;
+    margin-right: 1vw;
+}
+#calendar_textarea{
+    margin-top: 1vw;
+    height: 8vw;   
+    border-radius: 2px;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+img#img-upload {
+    height: auto;
+    width: 20vw;
+}
+span.input-group-btn {
+    position: absolute;
+    float: right;
+    right: 1vw;
+}
+label#permissions_checkbox {
+    position: absolute;
+    margin-left: 1vw;
+    font-size: 0.9vw;
+    color: black;
+}
+

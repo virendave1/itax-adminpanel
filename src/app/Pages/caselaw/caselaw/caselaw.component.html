@@ -1,0 +1,99 @@
+
+<div id="main">
+    <div class="row">
+      <div class="content-wrapper-before gradient-45deg-indigo-purple"></div>
+      <div class="breadcrumbs-dark pb-0 pt-4" id="breadcrumbs-wrapper">
+        <!-- Search for small screen-->
+        <div class="container">
+          <div class="row">
+            <div class="col s10 m6 l6">
+              <h5 class="breadcrumbs-title mt-0 mb-0"><span>Case Law</span></h5>
+              <ol class="breadcrumbs mb-0">
+                <li class="breadcrumb-item"><a href="dashboard.html">Home</a>
+                </li>
+                <li class="breadcrumb-item"><a href="#">Case Law</a>
+                </li>
+                <li class="breadcrumb-item active">Case Law 
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="card-title">Case Law - List</h4>
+              <a class="btn cyan waves-effect waves-light left" id="add_btn" href="case_law_add.html"><i class="material-icons left">add</i> Add</a>                  <div class="row">
+                <div class="col s12">
+                  <table id="page-length-option" class="display nowrap">
+                    <thead>
+                      <tr>
+                        <th>Sr.No</th>
+                        <th>Law</th>
+                        <th>Section</th>
+                        <th>Case Name</th>
+                        <th>Case Number</th>
+                        <th>Date of Order</th>
+                        <th>In Favour of</th>
+                        <th>Keyword</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <td>1</td>
+                        <td>The Income Tax, Act 1961</td>
+                        <td>276CC,276C,27BE</td>
+                        <td>Shri Raman Krishna Kumar Vs Deputy Commissioner of Income Tax</td>
+                        <td>CRLOP.No25561/2016</td>
+                        <td>24-11-21</td>
+                        <td>Revenue</td>
+                        <td>Proseuction 276CC</td>
+                        <td>Active</td>
+                        <td>
+                            <div class="btn" id="preview_btn" data-target="#">
+                                <a id="contactus_new_btn" class="modal-trigger mb-2 mr-1" href="#modal3">
+                                    <i class="material-icons">visibility</i>
+                                </a>
+                          </div>
+                            <div class="btn" id="edit_btn" data-target="#">
+                                <a id="contactus_new_btn" class="modal-trigger mb-2 mr-1" href="case_law_edit.html">
+                                    <i class="material-icons">edit</i>
+                                </a>
+                          </div>
+                          <div class="btn" id="contactus_delete_btn" data-target="#myModal">
+                            <a id="contactus_new_btn" class="modal-trigger mb-2 mr-1" href="#">
+                                <i class="material-icons">delete_forever</i>
+                            </a>
+                      </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div> 
+<div id="modal3" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <b><u><h6>Case Name - Shri Raman Krishna Kumar Vs Deputy Commissioner of Income Tax</h6></u></b>
+        <p>Law - The Income Tax, Act 1961</p>
+        <p>Section - 276CC,276C,27BE</p>
+        <p>Case Number - CRLOP.No25561/2016</p>
+        <p>Date of Order - 24-11-21</p>
+        <p>In Favour of - Revenue</p>
+        <p>Keyword - Proseuction 276CC</p>
+        <p>Orders - List of Orders </p>
+        <p>Head Note - Case Head Note</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-red  btn-flat ">Close</a>
+    </div>
+</div>
